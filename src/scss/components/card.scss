@@ -1,0 +1,38 @@
+.card {
+  cursor: pointer;
+  flex: 0 0 calc(33.333% - 12px);
+  width: 393px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 13px -4px $card-shadow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  .card-img-container {
+    display: flex;
+    height: 162px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-img {
+    height: 144px;
+    width: 144px;
+  }
+  .card-title {
+    background-color: white;
+    width: -webkit-fill-available;
+    padding: 12px 18px 18px 18px;
+    display: flex;
+    align-items: normal;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    text-align: start;
+    flex: 1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+  }
+}
